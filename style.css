@@ -351,10 +351,7 @@ textarea {
   resize: vertical;
 }
 
-/*
-1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
-2. Set the default placeholder color to the user's configured gray 400 color.
-*/
+
 
 input::-moz-placeholder, textarea::-moz-placeholder {
   opacity: 1;
@@ -430,7 +427,7 @@ video {
 
 body {
   font-family: Kanit, sans-serif;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 img {
@@ -1713,6 +1710,9 @@ ul.header-top-social-wrape li a i {
   .proloy-hero-content-wrape h1 {
     font-size: 80px;
   }
+  .my-stroke {
+    -webkit-text-stroke: 2px #250d0df0;
+    }
 }
 
 .proloy-hero-content-wrape h1 span {
