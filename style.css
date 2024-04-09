@@ -426,8 +426,13 @@ video {
 }
 
 body {
-  font-family: Kanit, sans-serif;
+  /* font-family: Kanit, sans-serif;
+  font-weight: 300; */
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 300;
+  /* font-style: normal; */
+
 }
 
 img {
@@ -495,7 +500,7 @@ li {
 
 p {
   margin-bottom: 1rem;
-  font-family: Kanit, sans-serif;
+  /* font-family: Kanit, sans-serif; */
   font-size: 1.125rem;
   line-height: 1.75rem;
   font-weight: 400;
@@ -1541,18 +1546,18 @@ ul.header-top-social-wrape li a i {
 
 .main-menu nav>ul>li>a {
   display: block;
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  font-family: Kanit, sans-serif;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  /* font-family: Kanit, sans-serif; */
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 500;
   text-transform: capitalize;
   line-height: 1.25;
   --tw-text-opacity: 1;
-  color: rgb(131 134 148 / var(--tw-text-opacity));
+  color: rgb(203 203 203 / var(--tw-text-opacity));
   transition-property: all 0.3s ease 0s;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
@@ -1560,7 +1565,8 @@ ul.header-top-social-wrape li a i {
 
 .main-menu nav>ul>li:hover>a, .main-menu nav>ul>li.active>a {
   --tw-text-opacity: 1;
-  color: rgb(12 18 57 / var(--tw-text-opacity));
+  /* color: rgb(12 18 57 / var(--tw-text-opacity)); */
+  color: #33cc79;
 }
 
 /* sub menu */
