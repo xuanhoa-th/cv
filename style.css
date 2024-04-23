@@ -501,10 +501,10 @@ li {
 p {
   margin-bottom: 1rem;
   /* font-family: Kanit, sans-serif; */
-  font-size: 1.125rem;
+  font-size: 1rem;
   line-height: 1.75rem;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 20px;
   --tw-text-opacity: 1;
   color: rgb(131 134 148 / var(--tw-text-opacity));
 }
@@ -749,11 +749,19 @@ label {
   .container {
     max-width: 767px;
   }
+  .proloy-hero-content-wrape {
+    padding-top: 100px !important;
+    padding-bottom: 200px !important;
+  }
 }
 
 @media (min-width: 768px) {
   .container {
     max-width: 991px;
+  }
+  .proloy-hero-content-wrape {
+    padding-top: 100px;
+    padding-bottom: 200px;
   }
 }
 
@@ -1681,6 +1689,8 @@ ul.header-top-social-wrape li a i {
   color: #33cc79;
 }
 .proloy-hero-content-wrape {
+  /* padding-top: 240px;
+  padding-bottom: 340px; */
   padding-top: 240px;
   padding-bottom: 340px;
   padding-left: 0px;
@@ -1895,14 +1905,14 @@ ul.proloy-about-resume-wrape li:hover {
 
 .about-resume-title {
   width: 30%;
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
   text-transform: capitalize;
 }
 
 .about-resume-info {
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
   text-transform: capitalize;
   width: 55%;
 }
